@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(30, 38, 109, 1);
+
+}
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer{
+    background: rgba(238, 243, 255, 1);
+    color: rgba(30, 38, 109, 1);
+
+
+}
+li{
+    list-style-type: none;
+    line-height: 33px;
+}
+
+
+ .actived{
+    color: rgba(30, 38, 109, 1);
+    font-weight: 600;
+}
+
+
+.btn-primary{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+
+position: static;
+width: 156px;
+height: 50px;
+left: 259px;
+top: 0px;
+
+/* Accra Sky */
+
+background: #0855FE;
+border-radius: 60px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 22px;
+}
+.bg_home{
+    background-image: url('./assets/img/bg-phone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80%
+}
+.padtop{
+    padding-top: 20%;
+}
+.headings{
+    font-size: 58px;
+    color: rgba(30, 38, 109, 1);
+    ;
+}
+.headings-2{
+font-weight: 500;
+font-size: 38px;
+line-height: 46px;
+text-align: center;
+
+/* Deep Blue Sea */
+
+color: #1E266D;
+}
+
+.gl_cards .card{
+    background: #FFFFFF;
+    border: 1px solid rgba(221, 221, 221, 0.49);
+    border-radius: 40px;
+    box-sizing: border-box;
+
+    width: 400px;
+}
+.gl_cards .card_shadow{
+    box-shadow: 0px 24px 40px rgba(8, 85, 254, 0.24);
+}
+
+.bg_footer{
+    width: 100%;
+    height: 432px;
+    background-image: url('./assets/img/newsletter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_width{
+width: 584px;
+height: 50px;
+left: 80px;
+top: 268.56px;
+
+background: #FFFFFF;
+border-radius: 40px;
+}
+input{
+    margin-left: 20px;
+    background: #FFFFFF;
+
+}
+input:focus{
+    border-color: white ;
+}
+.subbutton{
+    margin-top:6px;
+    margin-left: 170px;
+}
+.btn-info{
+width: 104px;
+height: 38px;
+
+
+/* Deep Blue Sea */
+
+background: #1E266D;
+border-radius: 40px;
+}
+
